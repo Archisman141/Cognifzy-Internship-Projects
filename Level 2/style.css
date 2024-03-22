@@ -1,0 +1,57 @@
+body{
+  background:  #d0bdf4;
+}
+.card1 {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    /* background-color: #246fe9; */
+  }
+  .card2 {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    /* background-color: #246fe9; */
+  }
+  .card3 {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    /* background-color: #246fe9; */
+  }
+  
+  .card1:hover {
+    transform: translateY(-5px);
+    background-color: rgb(106, 208, 239); 
+    
+  }
+  .card2:hover {
+    transform: translateY(-5px);
+    background-color: rgb(33, 70, 203); 
+   
+  }
+  .card3:hover {
+    transform: translateY(-5px);
+    background-color: rgb(178, 88, 231); 
+  }
+
+ 
+  .card1-image img {
+    max-height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card2-image img {
+    max-height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card3-image img {
+    max-height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
